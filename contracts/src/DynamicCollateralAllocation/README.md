@@ -1,9 +1,9 @@
-# Motivation
+## Motivation
 
 As a security reseacher, during the code review of liquity/bold (Cantina Contest). I have gone through in and out of BOLD protocol. Having this knowledge created this contract for a new feature addition.
 
-# New Files
-
+## New Files
+```
 src/
 └── DynamicCollateralAllocation/
     ├── DCA_Manual.sol            
@@ -13,10 +13,11 @@ src/
 test/
 ├── dynamicCollateralAllocation.t.sol   
 └── TestContracts/
-    └── DCAMocks.sol              
+    └── DCAMocks.sol
+```            
 
 
-# Dynamic Collateral Allocation (DCA)
+## Dynamic Collateral Allocation (DCA)
 
 The idea of Dynamic Collateral Allocation contract is to enhance the Bold Protocol that optimizes user collateral positions to maximize yield while maintaining appropriate risk levels. It rebalances user collateral based on predefined strategies, market conditions, and risk preferences.
 
